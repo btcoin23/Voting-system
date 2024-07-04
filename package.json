@@ -1,0 +1,43 @@
+{
+  "name": "voting-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.2",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "web3": "^4.8.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@types/node": "^20",
+    "@types/react": "^18.2",
+    "@types/react-dom": "^18.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "hardhat": "^2.22.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
